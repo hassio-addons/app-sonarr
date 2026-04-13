@@ -3,7 +3,7 @@ name: Sonarr
 version: dev
 slug: sonarr
 description: Smart PVR for newsgroup and bittorrent users
-url: https://github.com/hassio-addons/addon-sonarr/tree/main/README.md
+url: https://github.com/hassio-addons/app-sonarr/tree/main/README.md
 webui: http://[HOST]:[PORT:8989]
 init: false
 arch:
