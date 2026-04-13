@@ -14,7 +14,7 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 RUN \
   apk add --no-cache \
     icu-libs=76.1-r1 \
-    sqlite-libs=3.49.2-r1 \
+    sqlite-libs=3.51.2-r0 \
     xmlstarlet=1.6.1-r2 \
   \
   && if [ "${BUILD_ARCH}" = "aarch64" ]; then SONARR_ARCH="arm64"; \
