@@ -1,7 +1,7 @@
 #!/command/with-contenv bashio
 # shellcheck shell=bash
 # ==============================================================================
-# Home Assistant Community Add-on: Sonarr
+# Home Assistant Community App: Sonarr
 # Take down the S6 supervision tree when Sonarr fails
 # ==============================================================================
 readonly exit_code_container=$(</run/s6-linux-init-container-results/exitcode)
