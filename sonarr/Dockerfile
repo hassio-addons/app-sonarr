@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:20.2.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:21.0.2
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -13,8 +13,8 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 # hadolint ignore=DL3003,DL3042
 RUN \
   apk add --no-cache \
-    icu-libs=76.1-r1 \
-    sqlite-libs=3.53.4-r0 \
+    icu-libs=78.1-r0 \
+    sqlite-libs=3.53.2-r0 \
     xmlstarlet=1.6.1-r2 \
   \
   && if [ "${BUILD_ARCH}" = "aarch64" ]; then SONARR_ARCH="arm64"; \
